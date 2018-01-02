@@ -8,3 +8,9 @@ yarn
 ```bash
 yarn run start
 ```
+
+## for browser test
+```bash
+yarn run client 
+open client\index.html
+```

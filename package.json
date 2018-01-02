@@ -7,6 +7,10 @@
     "normalizr": "^3.2.4"
   },
   "scripts": {
-     "start":"node app.js"    
+    "start": "node app.js",
+    "client":"browserify app.js -o client/index.js"
+  },
+  "devDependencies": {
+    "browserify": "^14.5.0"
   }
 }
