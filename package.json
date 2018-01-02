@@ -8,7 +8,10 @@
   },
   "scripts": {
     "start": "node app.js",
-    "client":"browserify app.js -o client/index.js"
+    "client":"browserify app.js -o client/index.js",
+    "user":"browserify user.js -o client/user.js",
+    "demo":"browserify demo.js -o client/demo.js"
+
   },
   "devDependencies": {
     "browserify": "^14.5.0"
